@@ -1,0 +1,49 @@
+$primaryfontfamily: Space Grotesk;
+$primaryfontsize: 32px;
+$primaryletterspacing: -0,44px;
+$whitecolor: #FFFFFF;
+$greencolor: #4EE1A0;
+$blackcolor: #151515;
+$darkgrey:  #242424;
+$secondaryfontsize: 88px;
+$secondaryletterspacing: -2,5px;
+$graycolor: #D9D9D9;
+$mediumfontsize: 18px;
+$noletterspcacing: 0px;
+$smallfontsize: 16px;
+$contactletterspacing: 2.29px;
+
+
+
+
+
+.container {
+  font-family: $primaryfontfamily;
+  display: flex;
+  flex-direction: column;
+  background-color: $blackcolor;
+  color: white;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .image-logo {
+      position: absolute;
+      width: 192.49px;
+      height: 25px;
+      left: 1053px;
+      top: 43px;
+    }
+    img {
+      width: 24.61px;
+      height: 24px;
+    }
+  }
+  .image-profile {
+    position: absolute;
+    width: 445px;
+    height: 720px;
+    left: 830px;
+    top: 0px;
+  }
+}

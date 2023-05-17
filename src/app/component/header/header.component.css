@@ -1,0 +1,30 @@
+.container {
+  font-family: Space Grotesk;
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+  color: white;
+}
+.container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .header .image-logo {
+  position: absolute;
+  width: 192.49px;
+  height: 25px;
+  left: 1053px;
+  top: 43px;
+}
+.container .header img {
+  width: 24.61px;
+  height: 24px;
+}
+.container .image-profile {
+  position: absolute;
+  width: 445px;
+  height: 720px;
+  left: 830px;
+  top: 0px;
+}/*# sourceMappingURL=header.component.css.map */

@@ -20,5 +20,13 @@ $contactletterspacing: 2.29px;
 $skillsfontsize: 48px;
 
 
+body {
+  font-family: $primaryfontfamily;
+  background-color: $blackcolor;
+  color: $whitecolor;
+  display: flex;
+
+}
+
 
 

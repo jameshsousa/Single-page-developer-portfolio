@@ -1,1 +1,6 @@
-/*# sourceMappingURL=app.component.css.map */
+body {
+  font-family: Space Grotesk;
+  background-color: #151515;
+  color: #FFFFFF;
+  display: flex;
+}/*# sourceMappingURL=app.component.css.map */
