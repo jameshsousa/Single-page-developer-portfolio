@@ -15,7 +15,10 @@ $contactletterspacing: 2.29px;
 
 
 
+*{
+  margin: 0;
 
+}
 
 .container {
   font-family: $primaryfontfamily;
@@ -45,5 +48,26 @@ $contactletterspacing: 2.29px;
     height: 720px;
     left: 830px;
     top: 0px;
+  }
+  .title {
+    position: absolute;
+    width: 706px;
+    height: 303px;
+    left: 165px;
+    top: 198px;
+    background: $blackcolor;
+    h2 {
+      width: 709px;
+      height: 88px;
+      left: calc(50% - 709px/2 + 1.5px);
+      top: calc(50% - 88px/2 - 107.5px);
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -2.5px;
+      color: #FFFFFF;
+    }
   }
 }

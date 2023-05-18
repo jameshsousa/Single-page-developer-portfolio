@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .container {
   font-family: Space Grotesk;
   display: flex;
@@ -27,4 +31,25 @@
   height: 720px;
   left: 830px;
   top: 0px;
+}
+.container .title {
+  position: absolute;
+  width: 706px;
+  height: 303px;
+  left: 165px;
+  top: 198px;
+  background: #151515;
+}
+.container .title h2 {
+  width: 709px;
+  height: 88px;
+  left: calc(50% - 354.5px + 1.5px);
+  top: calc(50% - 44px - 107.5px);
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=header.component.css.map */
