@@ -1,44 +1,47 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .container {
   font-family: Space Grotesk;
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: #151515;
   color: white;
 }
 .container .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  width: 80%;
 }
 .container .header .image-logo {
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
   width: 192.49px;
-  height: 25px;
-  left: 1053px;
-  top: 43px;
+  z-index: 10;
 }
 .container .header img {
   width: 24.61px;
   height: 24px;
 }
+.container .header h1 {
+  left: 165px;
+}
 .container .image-profile {
-  position: absolute;
   width: 445px;
   height: 720px;
-  left: 830px;
-  top: 0px;
 }
 .container .title {
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
   width: 706px;
   height: 303px;
   left: 165px;
   top: 198px;
-  background: #151515;
 }
 .container .title h2 {
   width: 709px;

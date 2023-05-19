@@ -17,45 +17,51 @@ $contactletterspacing: 2.29px;
 
 *{
   margin: 0;
+  padding: 0;
 
 }
 
 .container {
   font-family: $primaryfontfamily;
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: $blackcolor;
   color: white;
   .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    width: 80%;
     .image-logo {
-      position: absolute;
-      width: 192.49px;
-      height: 25px;
-      left: 1053px;
-      top: 43px;
+     display: flex;
+     justify-content: space-between;
+     width: 192.49px;
+     z-index: 10;
     }
     img {
       width: 24.61px;
       height: 24px;
     }
+    h1 {
+      left: 165px;
+
+    }
   }
   .image-profile {
-    position: absolute;
     width: 445px;
     height: 720px;
-    left: 830px;
-    top: 0px;
+
   }
   .title {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
     width: 706px;
     height: 303px;
     left: 165px;
     top: 198px;
-    background: $blackcolor;
+
     h2 {
       width: 709px;
       height: 88px;
