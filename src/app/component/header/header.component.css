@@ -19,31 +19,46 @@
   width: 80%;
 }
 .container .header .image-logo {
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
   width: 192.49px;
-  z-index: 10;
+  height: 25px;
+  left: 1053px;
+  top: 43px;
 }
 .container .header img {
   width: 24.61px;
   height: 24px;
 }
 .container .header h1 {
+  position: absolute;
+  width: 172px;
+  height: 32px;
   left: 165px;
+  top: 39px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  letter-spacing: -0.444444px;
+  color: #FFFFFF;
 }
 .container .image-profile {
+  position: absolute;
   width: 445px;
   height: 720px;
+  left: 830px;
+  top: 0px;
 }
 .container .title {
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
   width: 706px;
   height: 303px;
   left: 165px;
   top: 198px;
 }
-.container .title h2 {
+.container h2 {
   width: 709px;
   height: 88px;
   left: calc(50% - 354.5px + 1.5px);
@@ -55,4 +70,35 @@
   line-height: 88px;
   letter-spacing: -2.5px;
   color: #FFFFFF;
+}
+.container p {
+  position: absolute;
+  height: 84px;
+  left: 0%;
+  right: 36.97%;
+  top: calc(50% - 42px + 109.5px);
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #D9D9D9;
+}
+.container .contactme {
+  position: absolute;
+  width: 117px;
+  height: 26px;
+  left: calc(50% - 58.5px - 1.5px);
+  top: calc(50% - 13px - 6px);
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 2.28571px;
+  /* White */
+  color: #FFFFFF;
+  text-transform: uppercase;
 }/*# sourceMappingURL=header.component.css.map */
